@@ -1,0 +1,56 @@
+.test{
+    background-color: violet;
+    background-color: teal;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    padding: 0px;
+    margin: 0px;
+}
+.nav_bar{
+    background-color: rgb(60, 60, 60);
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+
+.nav_bar a{
+    font-size: 20px;
+    height: inherit;
+    padding: 5px;
+    margin: 0px;
+    float: left; 
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+
+}
+.nav_bar a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+    border-bottom: 1px rgb(200, 200, 200) solid;
+}
+.fon{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.cont{
+    background-color: rgb(36, 36, 36);
+    min-height: 200vh;
+    width: 100%;
+    float: left;
+}
+.sell{
+    border-bottom: 1px rgb(255, 63, 63) solid;
+}
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar:hover { width: 15px;}
+::-webkit-scrollbar-button {  background-color: #666; height: 0px;}
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: rgb(255, 63, 63);}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
