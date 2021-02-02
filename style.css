@@ -15,6 +15,7 @@ body{
     background-color: rgb(250, 120, 120);
     color: white;
     overflow: auto;
+    transition: 0.5s;
 }
 
 .FBF.fbf-bar a{
@@ -53,6 +54,7 @@ body{
         width: 100vw;
         height: 70px;
         overflow: hidden;
+        transition: 0.5s;
     }
 
     .FBF.active{
