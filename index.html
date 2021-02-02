@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="FBF fbf-bar notactive" id="navbar">
-        <h1 class="navbar-brand" href="#">Never expand</h1>
+        <h1 style="text-align: center;" class="navbar-brand" href="#">Frame By Frame</h1>
         <button class="togglebnt"
         onclick="myFunction()"
         >
@@ -18,12 +18,38 @@
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
         </svg>
         </button>
-        <ul class="nav flex-column">
+        <ul class="nav flex-column" style="background-color: rgb(230, 100, 100); margin: 20px;">
             <li class="nav-item fbf-btn"><a class="nav-link active" href="#">News</a></li>
             <li class="nav-item fbf-btn"><a class="nav-link active" href="#">Tag</a></li>
             <li class="nav-item fbf-btn"><a class="nav-link active" href="#">Upload</a></li>
             <li class="nav-item fbf-btn"><a class="nav-link active" href="#">About</a></li>
         </ul>
+        <div class="FBF fbf-search">
+            <div class="FBF fbf-tags">
+                <a href="">tag</a>
+                <a href="">dfggd</a>
+                <a href="">tdfgag</a>
+                <a href="">tdfgag</a>
+                <a href="">dfg</a>
+                <a href="">tdsaag</a>
+                <a href="">tag</a>
+                <a href="">tdtgag</a>
+                <a href="">twegag</a>
+                <a href="">tawesg</a>
+                <a href="">tag</a>
+                <a href="">tagdsx</a>
+                <a href="">tag</a>
+            </div>
+            <form action="/index.html" method="get">
+            
+                <input list="tags" class="form-control" style="width:100%; max-width:none;" name="tags" type="text" placeholder="Search..." aria-label="Search">
+                <datalist id="tags">
+                    <option value="tags">
+                    
+                </datalist>
+    
+            </form>
+        </div>
     </div>
     <div style="padding: 10px; min-height: 50vh;">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos alias vel facere voluptates nemo, quam ex odio unde quibusdam ipsa quasi non quia cum eius! Recusandae facere architecto incidunt asperiores?

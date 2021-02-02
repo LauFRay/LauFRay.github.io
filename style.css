@@ -16,6 +16,25 @@ body{
     color: white;
     overflow: auto;
     transition: 0.5s;
+
+}
+
+.FBF.fbf-search{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(230, 100, 100);;
+}
+.FBF.fbf-tags{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.FBF.fbf-tags a{
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    
 }
 
 .FBF.fbf-bar a{
