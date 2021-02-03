@@ -3,6 +3,14 @@ body{
     margin-left: 320px;
     padding: 0px;
     transition: 0.5s;
+    scrollbar-color: rgb(250, 120, 120) rgb(180, 50, 50);     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: 2;
+
+}
+
+html{
+    scrollbar-color: rgb(250, 120, 120) rgb(180, 50, 50);     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: 2;
 }
 
 .FBF.fbf-bar{
@@ -17,7 +25,18 @@ body{
     overflow: auto;
     transition: 0.5s;
 
+    scrollbar-color: rgb(250, 120, 120) rgb(180, 50, 50);     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: 2;
+
 }
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
 
 .FBF.fbf-search{
     margin-top: 10px;
@@ -101,10 +120,19 @@ body{
         transition: 0.5s;
         overflow: hidden;
     }
-    
+
+    .FBF.notactive ul li a{
+        display: none;
+    }
+
+    .FBF.notactive div{
+        display: none;
+    }
+
     .togglebnt{
         display: block;
     }
+  
 
     body{
         margin-left: 0px;
