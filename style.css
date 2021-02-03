@@ -94,6 +94,7 @@ body{
     .FBF.active{
         height: 100vh;
         transition: 0.5s;
+        overflow: auto;
     }
     .FBF.notactive{
         height: 70px;
