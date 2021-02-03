@@ -98,6 +98,7 @@ body{
     .FBF.notactive{
         height: 70px;
         transition: 0.5s;
+        overflow: hidden;
     }
     
     .togglebnt{
