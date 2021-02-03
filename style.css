@@ -22,20 +22,36 @@ body{
 .FBF.fbf-search{
     margin-top: 10px;
     padding: 10px;
-    background-color: rgb(230, 100, 100);;
+    background-color: rgb(230, 100, 100);
 }
-.FBF.fbf-tags{
+
+.FBF.fbf-search input{
+    width: 100%;
+    border: none;
+    outline: hidden;
+}
+
+.FBF.fbf-search ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.FBF.fbf-search ul li{
+    padding: 3px;
     text-align: center;
-    padding-bottom: 10px;
 }
-.FBF.fbf-tags a{
-    background-color: green;
-    padding-left: 20px;
-    padding-right: 5px;
-    margin-bottom: 100px;
-    border-radius: 10px;
-    
+
+.FBF.fbf-search ul li:hover{
+    background-color: crimson;
 }
+
+.FBF.fbf-search ul a{
+    vertical-align: super;
+}
+
+
 
 .FBF.fbf-bar a{
     color: white;
@@ -72,7 +88,6 @@ body{
         /* display: none; */
         width: 100vw;
         height: 70px;
-        overflow: hidden;
         transition: 0.5s;
     }
 
