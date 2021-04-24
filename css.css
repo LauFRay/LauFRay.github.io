@@ -1,0 +1,54 @@
+.hh{
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.gg{
+
+}
+button{
+outline: none;}
+.th:hover{
+    color:#343a40;
+}
+
+.player{
+    margin-top: 100px;
+    width: 100%;
+}
+.video{
+    width: inherit;
+    display: block;
+}
+.control{
+    /* background-color: rgba(0, 0, 0, 0.171); */
+    position: relative;
+}
+.info{
+    height: 10%;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.top_control{
+    width: inherit;
+    height: 75%;
+    bottom: 0px;
+}
+.bot_control{
+    width: inherit;
+    height: 15%;
+    background: rgba(0, 0, 0, 0.205);
+}
+.bot_top_control{
+    width: inherit;
+    height: 60%;
+}
+.bot_bot_control{
+    width: inherit;
+    height: 40%;
+}
