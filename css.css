@@ -24,19 +24,22 @@ outline: none;}
 .video{
     width: inherit;
     display: block;
+    border: #343a40 solid 2px;
+    /* padding-top: 3rem;
+    background-color: black; */
 }
 .control{
     /* background-color: rgba(0, 0, 0, 0.171); */
     position: relative;
 }
 .info{
-    height: 10%;
+    height: 5%;
     width: inherit;
-    background-color: rgba(0, 0, 0, 0.418);
+    background-color: #343a405e;
 }
 .top_control{
     width: inherit;
-    height: 75%;
+    height: 80%;
     bottom: 0px;
 }
 .bot_control{
@@ -47,8 +50,26 @@ outline: none;}
 .bot_top_control{
     width: inherit;
     height: 60%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
 }
 .bot_bot_control{
     width: inherit;
     height: 40%;
+}
+.left_control{
+    height: 100%;
+    background-color: blue;
+}
+.mid_control{
+
+    background-color: red;
+    height: 100%;
+}
+.right_control{
+
+    background-color: green;
+    height: 100%;
+}
+.t{
 }
